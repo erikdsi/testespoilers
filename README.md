@@ -4,7 +4,7 @@ Instale o [Vagrant](https://www.vagrantup.com/).
 Clone esse repositório
 Entre no diretório do repositório e use o comando **vagrant up**.
 Use o comando **vagrant ssh** para acessar a vm que acabou de criar.
-Rode o script em provision/setup.sh
+Rode o script em provision/setup.sh.
 Mude a diretiva **sendfile** para off no nginx.conf.
 
 O nginx será utilizado para servir os arquivos estáticos, verifique o arquivo **deploy/testespoiler.conf** para mais detalhes.
