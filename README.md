@@ -5,9 +5,6 @@ Clone esse repositório.
 Entre no diretório do repositório e use o comando **vagrant up**.  
 Use o comando **vagrant ssh** para acessar a vm que acabou de criar.  
 Rode o script em provision/setup.sh.  
-Mude a diretiva **sendfile** para off no nginx.conf.  
-
-O nginx será utilizado para servir os arquivos estáticos, verifique o arquivo **deploy/testespoiler.conf** para mais detalhes.  
 
 Crie um novo projeto Django.  
 
@@ -18,4 +15,4 @@ Deve haver um botão que, ao clicado, salve os pontos médios no banco.
 Os pontos médios devem conter endereço, latitude e longitude.  
 Deve ser possível visualizar e salvar até 10 pontos médios por vez.  
 
-Criar um repositório no bitbucket e dar permissão VIEW para **erikdsi**.
+Crie um repositório privado no [bitbucket](https://bitbucket.org/) e de permissão VIEW para **erikdsi**.
